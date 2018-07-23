@@ -1,31 +1,45 @@
 # study_vue-cli
 
-## Project setup
-```
-yarn install
+## install 
+
+```bash
+npm install -g @vue/cli
+# version check 
+vue --version
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## prototyping 
+> 프로토 타입핑에만 사용 권장
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+- create file is App.vue
+    ```html
+    <template>
+    <h1>Hello!</h1>
+    </template>
+    ```
+- server start 
+    ```bash
+    vue serve
+    ```
 
-### Lints and fixes files
-```
-yarn run lint
-```
+- file name is not App.vue. server start 
+    ```bash
+    vue serve [filename].vue
+    ```
 
-### Run your unit tests
-```
-yarn run test:unit
-```
+- vue build 
+    ```bash
+    vue build [filename].vue
+    ```
 
-### Run your end-to-end tests
-```
-yarn run test:e2e
-```
+## creating project 
+    ```bash 
+    vue create [projectname]
+    ```
+
+## use GUI 
+    > vue ui command use.   
+    > manage projects with a graphical interface.
+    ```bash
+    vue ui
+    ```
